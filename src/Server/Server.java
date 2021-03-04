@@ -10,7 +10,6 @@ public class Server {
             ServerSocket ss = new ServerSocket(port); //запускаю порт сервера
             System.out.println("Ожидание подключения...");
 
-
             Socket socket = ss.accept(); //цепляю входящего клиента на сокет
             System.out.println("Связь установлена!");
             System.out.println();
